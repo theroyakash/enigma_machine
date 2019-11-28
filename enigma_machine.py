@@ -54,7 +54,7 @@ if __name__ == "__main__":
     decode = list(decode)
     while True:
         try:
-            token = int(input("Please set token:(must be only digits)\n"))
+            token = int(input("Please set token:(numerical values only)\n"))
             break
         except Exception as error:
             print(error)
