@@ -7,11 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1GMd7LAdNLKZbuXIZN9Sh5eSVGpsqsbjW
 """
 
-alphabets = [chr(i) for i in range(32, 126)]
-gear_one = [i for i in range(len(alphabets))]
-gear_two = [i for i in range(len(alphabets))]
-gear_three = [i for i in range(len(alphabets))]
-reflector = [i for i in reversed(range(len(alphabets)))]
+alphabets = [chr(y) for y in range(32, 126)]   # List of all characters in US Keyboard
+gear_one = [y for y in range(len(alphabets))]  # Gear I
+gear_two = [y for y in range(len(alphabets))]  # Gear II
+gear_three = [y for y in range(len(alphabets))]  # Gear III
+reflector = [y for y in reversed(range(len(alphabets)))]  # Reflector
 code = []
 gear_one_pos = gear_two_pos = gear_three_pos = 0
 
