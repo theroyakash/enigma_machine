@@ -58,10 +58,10 @@ if __name__ == "__main__":
             break
         except Exception as error:
             print(error)
-    for i in range(token):
+    for y in range(token):
         rotator()
-    for i in decode:
-        engine(i)
+    for z in decode:
+        engine(z)
     print("\n" + "".join(code))
     print(
         f"\nYour Token is {token}. Please jot your token down."
