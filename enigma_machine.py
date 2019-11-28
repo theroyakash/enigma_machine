@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1GMd7LAdNLKZbuXIZN9Sh5eSVGpsqsbjW
 """
 
-alphabets = [chr(y) for y in range(32, 126)]   # List of all characters in US Keyboard
-gear_one = [y for y in range(len(alphabets))]  # Gear I
-gear_two = [y for y in range(len(alphabets))]  # Gear II
+alphabets = [chr(y) for y in range(32, 126)]     # List of all characters in US Keyboard
+gear_one = [y for y in range(len(alphabets))]    # Gear I
+gear_two = [y for y in range(len(alphabets))]    # Gear II
 gear_three = [y for y in range(len(alphabets))]  # Gear III
 reflector = [y for y in reversed(range(len(alphabets)))]  # Reflector
 code = []
